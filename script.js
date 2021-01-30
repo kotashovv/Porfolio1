@@ -1,6 +1,8 @@
 $(document).ready(function(){
     $('.slider').slick({
-        dots: true
+        dots: true,
+        autoplay: true,
+        autoplaySpeed: 2000
     });
     $('.burger').click(function(event){
         $('.burger, .modal, .header__menu').toggleClass('active');
